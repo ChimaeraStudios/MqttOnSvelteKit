@@ -1,38 +1,30 @@
-# sv
+# MQTT SvelteKit Web Application
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This repository demonstrates how to implement MQTT communication in a SvelteKit web application.
 
-## Creating a project
+## Prerequisites
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Node.js (23)
+- Python 3.11
+- Git
 
+## Installation
+
+1. Clone the repository:
 ```bash
-# create a new project in the current directory
-npx sv create
+git clone https://github.com/ChimaeraStudios/MqttOnSvelteKit.git
+cd MqttOnSvelteKit
 
-# create a new project in my-app
-npx sv create my-app
-```
+npm install
 
-## Developing
+cd DummyClients
+python -m venv mqtt_env
+source mqtt_env/bin/activate  # On Windows use: mqtt_env\Scripts\activate
+pip install -r requirements.txt
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# Development mode
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+# Production build
 npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+npm run preview

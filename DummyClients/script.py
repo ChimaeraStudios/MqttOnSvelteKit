@@ -19,7 +19,7 @@ try:
             client.publish(topic, str(value))
             print(f"Pubblicato {value} su {topic}")
         
-        time.sleep(1000) # Attendi 1000ms
+        time.sleep(1) # Attendi 1 secondo
 except KeyboardInterrupt:
     print("\nChiusura client...")
     client.disconnect()
