@@ -66,7 +66,7 @@ Access the live demo at: https://ffcdpq61-4173.euw.devtunnels.ms/
 
 | Name | Role | GitHub |
 |------|------|--------|
-| Andrea Menci | Owner | [@Mancee28](https://github.com/Mancee28) |
+| Andrea Menci | Creator | [@Mancee28](https://github.com/Mancee28) |
 
 ## 📄 License
 
