@@ -30,3 +30,8 @@ npm run build
 npm run preview
 
 https://ffcdpq61-5173.euw.devtunnels.ms/
+
+---
+
+**Group Member:** Andrea Menci  
+**GitHub:** https://github.com/Mancee28
