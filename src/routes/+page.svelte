@@ -1,7 +1,6 @@
 <script lang="ts">
-	import { onMount, onDestroy } from "svelte";
+import { onMount, onDestroy } from "svelte";
 import sensorValues, { startConnection, closeConnection } from "../store/values";
-
 
 onMount(() => {
     startConnection();

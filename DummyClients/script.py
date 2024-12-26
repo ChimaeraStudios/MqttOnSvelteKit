@@ -19,7 +19,7 @@ try:
             client.publish(topic, str(value))
             print(f"Pubblicato {value} su {topic}")
             
-            time.sleep(random.uniform(0.1, 1))  # Random wait between 0.1 and 1 seconds
+            time.sleep(random.uniform(0.01, 0.1))  # Random wait between 0.1 and 1 seconds
             
 
 except KeyboardInterrupt:
